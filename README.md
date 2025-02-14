@@ -1,7 +1,7 @@
 # mailGPT
 ‼️ ⛔️ WANRING THIS CAN CAUSE NUCLEAR FUSION. USE IT AT YOUR OWN RISK.⚠️
 
-rspamd (https://github.com/rspamd/rspamd) configuration for SPAM/HAM detection model designed to run even on edge devices based on meta’s Llama 3.2.
+Configuration(s) for SPAM/HAM detection model designed to run even on edge devices based on meta’s Llama 3.2.
 This repo will document the steps required to run akritrimai/Llama-SH-GPT ( https://ollama.com/akritrimai/Llama-SH-GPT ) on 
 different spam detection platforms. We are starting with a sample  configuration of rspamd's( https://github.com/rspamd/rspamd ) new experimental GPT plugin. It could be made to interact with varied systems as its openai api compatible through ollama
 (https://github.com/ollama/ollama).
