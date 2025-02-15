@@ -1,5 +1,5 @@
 # mailGPT
-‼️ ⛔️ WANRING THIS CAN CAUSE NUCLEAR FUSION. USE IT AT YOUR OWN RISK.⚠️
+‼️ ⛔️ WARNING THIS CAN CAUSE NUCLEAR FUSION. USE IT AT YOUR OWN RISK.⚠️
 
 Configuration(s) for SPAM/HAM detection model designed to run even on edge devices based on meta’s Llama 3.2.
 This repo will document the steps required to run akritrimai/Llama-SH-GPT ( https://ollama.com/akritrimai/Llama-SH-GPT ) on 
