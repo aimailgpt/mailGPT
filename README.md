@@ -6,16 +6,15 @@ This repo will document the steps required to run akritrimai/Llama-SH-GPT ( http
 different spam detection platforms. 
 
 rspamd:
-We are starting with a sample  configuration of rspamd's( https://github.com/rspamd/rspamd ) new experimental GPT plugin. It could be made to interact with varied systems as its openai api compatible through ollama
-(https://github.com/ollama/ollama).
+We are starting with a sample  configuration of rspamd's( https://github.com/rspamd/rspamd ) new experimental GPT plugin. It could be made to interact with varied systems as its openai api compatible through ollama (https://github.com/ollama/ollama). use gpt.conf in appropriate folder on rspamd installation
 The model can be pulled from ollama using:
 
 ollama pull akritrimai/Llama-SH-GPT
 
 Stalwart Mail Server:
 https://stalw.art/docs/server/ai-models
-'''
 
+```
 [enterprise.ai."chat"]
 endpoint = "http://127.0.0.1:11434/v1/chat/completions"
 model = "akritrimai/Llama-SH-GPT"
@@ -28,10 +27,11 @@ headers = [ "X-My-Header: my-value" ]
 [enterprise.ai."chat".auth]
 token = "ollama"
 
-'''
+```
+
 https://stalw.art/docs/spamfilter/llm/
 
-'''
+```
 
 [spam-filter.llm]
 model = "akritrimai/Llama-SH-GPT"
@@ -74,7 +74,7 @@ explanation = 2
 enable = true
 name = "X-Spam-LLM"
 
-'''
+```
 
 Coming soon on more platforms!!!
 
