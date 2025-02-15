@@ -6,7 +6,7 @@ This repo will document the steps required to run akritrimai/Llama-SH-GPT ( http
 different spam detection platforms. 
 
 rspamd:
-We are starting with a sample  configuration of rspamd's( https://github.com/rspamd/rspamd ) new experimental GPT plugin. It could be made to interact with varied systems as its openai api compatible through ollama (https://github.com/ollama/ollama). use gpt.conf in appropriate folder on rspamd installation
+We are starting with a sample  configuration of rspamd's( https://github.com/rspamd/rspamd ) new experimental GPT plugin. It could be made to interact with varied systems as its openai api compatible through ollama (https://github.com/ollama/ollama). use gpt.conf in appropriate folder on rspamd installation.
 The model can be pulled from ollama using:
 
 ollama pull akritrimai/Llama-SH-GPT
